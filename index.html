@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bias @ SIGIR2024 - International Workshop on Algorithmic Bias in Search and Recommendation</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#main">BIAS 2024</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#aims">Scope</a></li>
+          <li><a href="#topics">Topics</a></li>
+          <li><a href="#dates">Important Dates</a></li>
+          <li><a href="#submission">Submission</a></li>
+          <li><a href="#keynote">Keynotes</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#committee">Organization</a></li>
+          <li><a href="#attending">Register</a></li>
+          <li><a href="#editions">Editions</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <h1 class="mb-4 pb-0">International Workshop on <br/> Algorithmic Bias in Search and Recommendation</h1>
+      <p class="mb-4 pb-0">to be held as part of the <u><a href="https://sigir-2024.github.io" target="_blank">47th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2024)</a></u></p>
+      <p class="mb-4 pb-0">14-18 July 2024 - Washington D.C., USA <!--(with support for remote attendance)--></p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+    Aims and Scope Section
+    ============================-->
+    <section id="aims" class="wow fadeInUp">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Workshop Aims and Scope</h2>
+
+          <!--<p>Creating efficient and effective <strong>search and recommendation algorithms</strong> has been the main objective of industry practitioners and academic researchers over the years.
+             However, recent research has shown how these algorithms trained on historical data lead to models that might <strong>exacerbate existing biases</strong> and generate potentially
+             negative outcomes. Defining, assessing and mitigating these biases throughout experimental pipelines is a primary step for devising search and recommendation algorithms that can be
+             <strong>responsibly deployed</strong> in real-world applications. This workshop aims to collect novel contributions in this field and offer a common ground for interested researchers and practitioners.</p>-->
+
+            <p> The goal is hence to favor a <strong>community-wide dialogue on new research perspectives</strong> through a workshop having the following objectives: </p>
+            <ul>
+              <li>Increase awareness of the algorithmic bias problem in IR.</li>
+              <li>Identify dimensions influenced by algorithmic bias in IR.</li>
+              <li>Solicit contributions addressing algorithmic bias in IR. </li>
+              <li>Gain insights into recent advances and open issues in IR.</li>
+              <li>Familiarize the IR community with current field practices.</li>
+              <li>Uncover gaps in academic and industry research in IR.</li>
+            </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+    Topics Section
+    ============================-->
+    <section id="topics" class="wow fadeInUp section-with-bg">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Workshop Topics</h2>
+          <p>The workshop welcomes contributions on topics about algorithmic bias in search and recommendation, focused (but not limited) to:</p>
+          <ul>
+            <li><strong>Data Set Collection and Preparation</strong>:
+               <ul>
+                  <li>Studying the interplay between bias and imbalanced data.</li>
+                  <li>Designing methods for dealing with imbalances in data.</li>
+                  <li>Creating data pipelines for less biased data sets.</li>
+                  <li>Collecting data sets for the analysis of biased situations.</li>
+                  <li>Designing protocols for data sets tailored to bias analysis.</li>
+              </ul>
+            </li>
+            <li><strong>Countermeasure Design and Development</strong>:
+               <ul>
+                  <li>Formalizing and operationalizing bias concepts</li>
+                  <li>Conducting exploratory analysis that uncover bias</li>
+                  <li>Designing treatments that mitigate biases.</li>
+                  <li>Devising methods for explaining biases. </li>
+                  <li>Studying causal and counterfactual reasoning for bias.</li>
+              </ul>
+            </li>
+            <li><strong>Evaluation Protocol and Metric Formulation</strong>:
+               <ul>
+                  <li>Performing auditing studies with respect to bias. </li>
+                  <li>Conducting  experimental studies on bias. </li>
+                  <li>Defining objective metrics that consider bias.</li>
+                  <li>Formulating bias-aware protocols to evaluate models. </li>
+				          <li>Evaluating mitigation strategies in unexplored domains.</li>
+                  <li>Comparative studies of existing evaluation protocols. </li>
+                  <li>Analysing scalability issues of debiasing methods.</li>
+              </ul>
+            </li>
+            <li><strong>Case Study Exploration</strong>:
+               <ul>
+                  <li>E-commerce platforms</li>
+                  <li>Educational environments</li>
+                  <li>Entertainment websites</li>
+                  <li>Healthcare systems</li>
+                  <li>Social media</li>
+                  <li>News platforms</li>
+                  <li>Digital libraries</li>
+                  <li>Job portals</li>
+                  <li>Dating platforms</li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+    Important Dates Section
+    ============================-->
+    <section id="dates" class="wow fadeInUp">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Important Dates</h2>
+          <ul>
+            <li>TBC</li>
+            <!--<li>Submissions: <del>January 12, 2023</del> <strong><font color="red">January 19, 2023</font></strong></li>
+            <li>Notifications: February 16, 2023</li>
+            <li>Camera-Ready: March 2, 2023</li>
+            <li>Workshop: April 2, 2023 - Dublin, Ireland (with support for remote attendance)</li>-->
+          </ul>
+          <!--<p>All deadlines are 11:59pm, AoE time (Anywhere on Earth).</p>-->
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+    Submission Details Section
+    ============================-->
+    <section id="submission" class="wow fadeInUp section-with-bg">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Submission Details</h2>
+            
+          <p>We invite authors to submit unpublished original papers, written in English. Submitted papers should not have been previously published or accepted for publication in substantially similar form in any peer-reviewed venue, such as journals, conferences, or workshops.</p>
+          <p>The authors should consult SIGIR <a href="https://sigir-2024.github.io/call_for_papers.html" target="_blank">paper guidelines</a> and <a href="https://sigir.org/sigir2022/checklist-to-strengthen-an-ir-paper/" target="_blank"> Fuhr’s guide to avoid common IR evaluation mistakes</a>, for the preparation of their papers. The authors should consult the <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19242230/data/v9" target="_blank">Springer’s authors’ guidelines </a> and use their proceedings templates, either <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v6" target="_blank">LaTeX</a> or <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238706/data/v1" target="_blank"> Word</a>.</p>
+          <p>Papers should be submitted as PDF files to Easychair at <a href="https://easychair.org/conferences/?conf=sigir24" target="_blank">https://easychair.org/conferences/?conf=sigir24</a>.</p>
+          <p>We will consider three different submission types:</p>
+          <ul>
+            <li><strong>Full papers (12 pages) </strong> should be clearly placed with respect to the state of the art and state the contribution of the proposal
+                in the domain of application, even if presenting preliminary results. In particular, research papers should describe the methodology
+                in detail, experiments should be repeatable, and a comparison with the existing approaches in the literature should be made. </li>
+            <li><strong>Reproducibility papers (12 pages) </strong> should repeat prior experiments using the original source code and datasets to show how, why, and when the methods
+                work or not (replicability papers) or should repeat prior experiments, preferably using the original source code, in new contexts (e.g., different domains and datasets,
+                different evaluation and metrics) to further generalize and validate or not previous work (reproducibility papers).</li>
+            <li><strong> Short paper (6 pages) or position papers (4 pages)  </strong> should introduce new point of views in the workshop topics or summarize the experience of a
+                group in the field. Practice and experience reports should present in detail real-world scenarios in which search and recommender
+                systems are exploited. </li>
+          </ul>
+
+          <p>Submissions should not exceed the indicated number of pages, including any diagrams and references. </p>
+
+          <p>All submissions will go through a <strong>double-blind</strong> review process and be reviewed by at least three reviewers on the basis of relevance for the workshop, novelty/originality, significance,
+             technical quality and correctness, quality and clarity of presentation, quality of references and reproducibility.</p>
+          <p>Submitted papers will be rejected without review in case they are not properly anonymized, do not comply with the template, or do not follow the above guidelines.</p>
+          <p>The accepted papers and the material generated during the meeting will be available on the workshop website. The workshop proceedings will be published as a <strong>Springer's Communications in Computer and Information Science (CCIS) revised post-proceedings volume</strong>, indexed on Google Scholar, DBLP and Scopus. The authors of selected papers may be invited to submit an extended version in a journal special issue.</p>
+
+          <p>Please be aware that at least one author per paper needs to register and attend the workshop to present the work.</p>
+          <p>We expect authors, the program committee, and the organizing committee to adhere to the <a href="https://www.acm.org/special-interest-groups/volunteer-resources/acm-conflict-of-interest-policy" target="_blank">ACM’s Conflict of Interest Policy </a> and the <a href="https://www.acm.org/code-of-ethics" target="_blank">ACM’s Code of Ethics and Professional Conduct</a>. </p>
+
+
+        </div>
+      </div>
+
+    </section>
+
+     <!--==========================
+    Keynote Section
+    ============================-->
+    <section id="keynote" class="wow fadeInUp">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Keynote Speakers</h2>
+
+         <!--    </br>
+
+		     <p style="text-align: center;"><img src="./img/asia_biega.png" class="img-rounded" alt="Asia Biega" style=" width: 30%;"></p>
+
+			 <p style="text-align: center;">Dr. <strong><a href="https://asiabiega.github.io/" target="_blank">Asia J. Biega</a> <br> Max Planck Institute for Security and Privacy - MPI-SP (Germany)</strong></p>
+
+			 <p><strong>Title</strong>: Fair Ranking Systems: What's Missing?</p>
+
+             <p><strong>Abstract</strong>: Many approaches to fairness in ranking center on algorithms, metrics, and data. Will focusing solely on these factors allow us to create equitable systems in practice? This talk will explore three issues that might influence the effectiveness of fairness interventions. First, we'll examine tensions between fairness and other responsibility principles mandated by data protection laws. Second, we'll demonstrate the role of interface design in the societal outcomes of a ranking platform. Finally, we'll conclude with a reflection on the importance and practical outcomes of normatively grounding our fairness metrics.</p>
+
+             <p><strong>Short Bio</strong>: Asia J. Biega is a tenure-track faculty member at the Max Planck Institute for Security and Privacy (MPI-SP) leading the Responsible Computing group. Her research centers around developing, examining and computationally operationalizing principles of responsible computing, data governance & ethics, and digital well-being. Before joining MPI-SP, Asia worked at Microsoft Research Montréal in the Fairness, Accountability, Transparency, and Ethics in AI (FATE) Group. She completed her PhD in Computer Science at the MPI for Informatics and the MPI for Software Systems, winning the DBIS Dissertation Award of the German Informatics Society. In her work, Asia engages in interdisciplinary collaborations while drawing from her traditional CS education and her industry experience including stints at Microsoft and Google.</p>
+
+             </br></br>
+
+		     <p style="text-align: center;"><img src="./img/henriette_cramer.png" class="img-rounded" alt="Henriette Cramer" style=" width: 30%;"></p>
+
+			 <p style="text-align: center;">Dr. <strong><a href="https://hcramer.wordpress.com/" target="_blank">Henriette Cramer</a> <br> Spotify (USA)</strong></p>
+
+			 <p><strong>Title</strong>: Algorithmic Impact Practices in Product Development</p>
+
+             <p><strong>Abstract</strong>: When organizations want to assess their algorithmic impact, more is required than research alone. Unintended negative side effects of Machine Learning are gaining attention. Using historical data can perpetuate stereotypes, machine models and recommendations can amplify existing inequalities. However, pragmatic challenges stand in the way of practitioners that are committed to address these issues. There are no clear, off-the-shelf industry-standard processes that can be readily applied in practice on what negative impacts to assess, or how to address them. Barriers include the extensive research necessary to understand domain-specific issues, turning that research into the development of concrete methods to assess and address those issues, and challenges to implementing solutions at an organizational scale and in large infrastructures. This includes translation between Product, Trust & Safety and Algorithmic Impact communities. In this talk, I’ll share lessons learnt from both organizational and technical practice that could be useful for others trying to address such challenges in product development, and for those that study algorithmic impact methods academically.</p>
+
+             <p><strong>Short Bio</strong>: Henriette Cramer is Head of Algorithmic Impact, and a Director in Spotify’s Trust & Safety team. Her current work focuses on assessing and addressing the impact of data, platform and machine learning decisions in music and podcast streaming. This includes translating abstract calls to action into concrete structure and tooling at organizational scale, as well as data-informed product direction. Henriette has experience in a variety of Product, Policy and Research settings, ranging from exploratory human-robot interaction in academia to practical search, voice, advertising and recommender systems in product settings. This makes her especially interested in how different fields, functions and domains diverge in histories and incentives, and how that impacts collaboration. Henriette has a PhD from the University of Amsterdam focused on people’s interaction with adaptive and autonomous systems, a collection of patent filings related to her industry work, and 50+ peer-reviewed academic publications, which can be found at henriettecramer.com.</p>
+
+             </br></br>
+
+		     <p style="text-align: center;"><img src="./img/harrie_oosterhuis.png" class="img-rounded" alt="Harrie Oosterhuis" style=" width: 30%;"></p>
+
+			 <p style="text-align: center;">Dr. <strong><a href="https://harrieo.github.io/" target="_blank">Harrie Oosterhuis</a> <br> Radboud University (The Netherlands)</strong></p>
+
+			 <p><strong>Title</strong>: Counterfactual Learning to Rank for Search and Recommendation</p>
+
+             <p><strong>Abstract</strong>: Search and recommendation systems are vital for the accessibility of content on the internet. The basis for these systems are ranking models that turn collections of items into rankings: small, ordered lists of items to be displayed to users. Modern ranking models are mostly optimized based on user interactions. Generally, learning from user behavior leads to systems that receive more user engagement than those optimized based on expert judgements. However, user interactions are biased indicators of user preference: often whether something is interacted has less to do with preference and more with where and how it was presented. In response to this bias problem, recent years have seen the introduction and development of the counterfactual Learning to Rank (LTR) field. This field covers methods that learn from historical user interactions, i.e. click logs, and aim to optimize ranking models in terms of the actual user preferences. In order to achieve this goal, counterfactual LTR methods have to correct the biases that affect clicks. In this talk, I will compare counterfactual estimation for bandit algorithms with methods specifically made for learning to rank. Additionally, I will introduce a recently introduced doubly robust method for correcting position-bias in user interactions with rankings.</p>
+
+             <p><strong>Short Bio</strong>: Harrie Oosterhuis is an assistant professor at the Data Science Group of the Institute of Computing and Information Sciences (iCIS) of the Radboud University. His research lies on the intersection of machine learning and information retrieval, it primarily concerns learning from user interactions on rankings. In particular, it focuses on methods that correct for the effects of interaction biases. He received his PhD cum laude from the University of Amsterdam under supervision of prof. dr. Maarten de Rijke on the thesis titled "Learning from User Interactions with Rankings: A Unification of the Field". He is also a recipient of the 2021 Google Research Scholar Award for early career researchers and the WSDM'21, SIGIR'21 and ICTIR'22 best paper awards.</p>
+--> 
+        </div>
+
+      </div>
+      <ul>
+        <li>TBC</li>
+      </ul>
+      
+
+    </section>
+
+    <!--==========================
+    Program Section
+    ============================-->
+    <section id="program" class="wow fadeInUp section-with-bg">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Program</h2>
+
+          <p>
+              The workshop will take place in presence in Washington D.C., USA</strong>. The workshop program is structured as follows.
+          </p>
+          TBC
+          <!--
+            <div style="margin: 10px auto 30px auto; width: 50%;">
+              <table class="table">
+                  <thead>
+                  <tr>
+                      <th scope="col" class="time" style="min-width: 100px;">Timing</th>
+                      <th scope="col">Content</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <th scope="row" class="time"><strong>5 minutes</strong></th>
+                      <td><strong>Welcome Message</strong></td>
+                  </tr>
+                  <tr>
+                      <th scope="row" class="time"><strong>60 mitues/strong></th>
+                      <td>
+                         <strong>Keynote Talk</strong> on "<strong>Fair Ranking Systems: What's Missing?</strong>" </br> Dr. Asia J. Biega</strong> from Max Planck Institute for Security and Privacy - MPI-SP (Germany) <br> [Slides - <a href="https://www.youtube.com/watch?v=kr1dwkinOgI&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=2" target="_blank">Video</a>] 
+                        </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>40 minutes</strong></th>
+                          <td>
+                              <div style="margin-bottom: 9px;"><strong>Paper Session I : Biases Exploration and Assessment</strong></div>
+                              <ul>
+                                  <li><strong>09:50 - 10:03 (10 mins + 3 mins Q&A) In-presence Talk</strong></br> A Study on Accuracy, Miscalibration, and Popularity Bias in Recommendations </br> <strong>Dominik Kowald</strong>; Gregor Mayr; Markus Schedl; Elisabeth Lex <br> [<a href="https://drive.google.com/file/d/1ScdesPMBiELRg6GF2TuMv8-HM8Tcomm3/view?usp=share_link" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=T8dg5VkuR_E&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=3" target="_blank">Video</a>]</li>
+                                  <li><strong>10:05 - 10:18 (10 mins + 3 mins Q&A) In-presence Talk</strong></br> Measuring Bias in Multimodal Models: Multimodal Composite Association Score </br> <strong>Abhishek Mandal</strong>; Susan Leavy; Suzanne Little <br> [<a href="https://docs.google.com/presentation/d/1wWfUpnrvckWiOJ6MW-5ZG0g8mhj3z_jM/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=ogN_fUUErjk&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=4" target="_blank">Video</a>]</li>
+                                  <li><strong>10:20 - 10:33 (10 mins + 3 mins Q&A) In-presence Talk</strong></br> Evaluating Fairness Metrics </br> <strong>Zahid Irfan</strong>; Fergal McCaffery; Roisin Loughran <br> [<a href="https://docs.google.com/presentation/d/118Teq-4GvULiHXV7xTKQebHr0NxD59yJ/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=xcNjswEsseg&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=5" target="_blank">Video</a>]</li>
+                              </ul>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>30 minutes</strong></th>
+                          <td><strong>Coffee Break</strong></td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>11:00 12:30</strong></th>
+                          <td>
+                              <div style="margin-bottom: 9px;"><strong>Paper Session II : Mitigation Strategies against Biases</strong></div>
+                              <ul>
+                                  <li><strong>11:00 - 11:13 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Implicit Feedback for User Mainstreaminess Estimation and Bias Detection in Recommender Systems </br> <strong>Kuanyi Zhang</strong>; Min Xie; Yi Zhang; Haixian Zhang <br> [<a href="https://docs.google.com/presentation/d/1ZrQ2W71qfkA6gJrkRJz13XcWcTB7NuQH/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=K9Sssp2QaHY&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=6" target="_blank">Video</a>]</li>
+                                  <li><strong>11:15 - 11:28 (10 mins + 3 mins Q&A) In-presence Talk</strong></br> Preserving Utility in Fair Top-k Ranking with Intersectional Bias </br> <strong>Nicola Alimonda</strong>; Alessandro Castelnovo; Riccardo Crupi; Fabio Mercorio; Mario Mezzanzanica <br> [<a href="https://docs.google.com/presentation/d/1MESYIpSBKTfZJPA2zv5bY3ZICG7VxzzB/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=l9QsCyYZgg8&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=7" target="_blank">Video</a>]</li>
+                                  <li><strong>11:30 - 11:43 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Mitigating Position Bias in Hotels Recommender Systems </br> <strong>Yinxiao Li</strong> <br> [<a href="https://drive.google.com/file/d/1nSgF0DqioYNGtWg-5TgOhixTSWp_d-pd/view?usp=share_link" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=k8MCbuI6dGc&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=9" target="_blank">Video</a>]</li>
+                                  <li><strong>11:45 - 11:58 (10 mins + 3 mins Q&A) In-presence Talk</strong></br> Improving Recommender System Diversity with Variational Autoencoders </br> <strong>Sheetal Borar</strong>; Hilde Weerts; Binyam Gebre; Mykola Pechenizkiy <br> [<a href="https://docs.google.com/presentation/d/1BdusvghOfvr1raCtf6h_slu2x2bZcHjc/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=3lxo5hQ_3JY&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=8" target="_blank">Video</a>]</li>
+                                  <li><strong>12:00 - 12:13 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Addressing Biases in the Texts using an End-to-End Pipeline Approach </br> <strong>Shaina Raza</strong>; Syed Raza Bashir; Sneha Sneha; Urooj Qamar; Usman Naseem <br> [<a href="https://drive.google.com/file/d/1-OH2mTtLzCnKfkNPBwF4GneOWFszZr4m/view?usp=share_link" target="_blank">Slides</a> - Video]</li>
+                                  <li><strong>12:15 - 12:28 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Bootless Application of Greedy Re-ranking Algorithms in Fair Neural Team Formation </br> <strong>Hamed Loghmani</strong>; Hossein Fani <br> [<a href="https://drive.google.com/file/d/1n9Ms9NK3qsgQP7rqPeykcPuiGKR-jAjA/view?usp=share_link" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=EmAFvANqzBM&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=10" target="_blank">Video</a>]</li>
+                              </ul>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>12:30 13:30</strong></th>
+                          <td><strong>Lunch Break</strong></td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>13:30 14:20</strong></th>
+                          <td>
+                              <strong>Keynote Talk</strong> on "<strong>Counterfactual Learning to Rank for Search and Recommendation</strong>" </br> Dr. Harrie Oosterhuis</strong> from Radboud University (The Netherlands) <br> [<a href="https://docs.google.com/presentation/d/e/2PACX-1vStM85prOjySaaUUmf-SzhZMDQ9gTIXsfbe_3QmOGPGA-BAypX7wy6Mg4fiGGxuv4OgKif5J-Zhk1EY/pub?start=false&loop=false&delayms=3000" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=69E4YwX3M-8&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=11" target="_blank">Video</a>]
+                          </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>14:20 15:05</strong></th>
+                          <td>
+                              <div style="margin-bottom: 9px;"><strong>Paper Session III : Biases in Newly Emerging Domains of Application</strong></div>
+                              <ul>
+                                  <li><strong>14:20 - 14:33 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> How Do You Feel? Information Retrieval in Psychotherapy and Fair Ranking Assessment  </br> Vivek Kumar; <strong> Giacomo Medda</strong>; Diego Reforgiato Recupero; Daniele Riboni; Rim Helaoui; Gianni Fenu <br> [<a href="https://docs.google.com/presentation/d/1nJ1IQdeuEuEQbabhSRC-txtfaao51rGf/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=I7wRa_GNVBw&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=12" target="_blank">Video</a>]</li>
+                                  <li><strong>14:35 - 14:48 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Understanding Search Behavior Bias in Wikipedia </br> <strong>Bruno Scarone</strong>; Ricardo Baeza-Yates; Erik Bernhardson <br> [<a href="https://drive.google.com/file/d/1tA0ZjBukN0t_-OUjzwc_eGk_wf6QgVaU/view?usp=share_link" target="_blank">Slides</a> - Video]</li>
+                                  <li><strong>14:50 - 15:03 (10 mins + 3 mins Q&A) In-presence Talk</strong></br> Do you MIND? Reflections on the MIND Dataset for Research on Diversity in News Recommendations </br> <strong>Sanne Vrijenhoek</strong> <br> [<a href="https://drive.google.com/file/d/1Cr3H6NjiUCHxQ2UApHLoY0sc2PHgThrB/view?usp=share_link" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=bUxhM1aqIps&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=13" target="_blank">Video</a>]</li>
+                              </ul>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>15:05 15:30</strong></th>
+                          <td><strong>Coffee Break</strong></td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>15:30 16:15</strong></th>
+                          <td>
+                              <div style="margin-bottom: 9px;"><strong>Paper Session IV : Novel Perspectives and Conceptualizations of Biases</strong></div>
+                              <ul>
+                                  <li><strong>15:30 - 15:43 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Detecting and Measuring Social Bias of Arabic Generative Models in Search and Recommendation </br> <strong>Fouzi Harrag</strong>; Chaima Mahdadi; Amina Norhane Ziad <br> [<a href="https://docs.google.com/presentation/d/1-O3MdBeXdnUbHu2J8pIf91OxbQh8-0y-/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - Video]</li>
+                                  <li><strong>15:45 - 15:58 (10 mins + 3 mins Q&A) In-presence Talk</strong></br>Discussing Open Challenges for Fairness Analysis in User Profiling with Graph Neural Networks </br> <strong>Erasmo Purificato</strong>; Ernesto William De Luca <br> [<a href="https://docs.google.com/presentation/d/1eJdSaf8-GBlOXCABmbWEN6K0vAoVWUsq/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=-gH03J7kWnM&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=14" target="_blank">Video</a>]</li>
+                                  <li><strong>16:00 - 16:13 (10 mins + 3 mins Q&A) Virtual Talk</strong></br> Search Neutrality </br> <strong>Milo Phillips-Brown</strong> <br> [<a href="https://docs.google.com/presentation/d/1Y--KkjYhwqvNzYIja_hArce_5s9NF4vv/edit?usp=share_link&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - <a href="https://www.youtube.com/watch?v=63yuk1DTOU4&list=PLhyDn1IGkhLZ8WtaJgYV48zvatxyxpBoS&index=15" target="_blank">Video</a>]</li>
+                              </ul>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>16:15 17:05</strong></th>
+                          <td>
+                              <strong>Keynote Talk</strong> on "<strong>Algorithmic Impact Practices in Product Development</strong>" </br> Dr. Henriette Cramer</strong> from Spotify (USA) <br> [Slides - Video]
+                          </td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>17:05 17:10</strong></th>
+                          <td><strong>SoBigdata.it - European Integrated Infrastructure for Social Mining and Big Data Analytics - Promoting Diversity and Inclusion</strong> <br> [<a href="https://docs.google.com/presentation/d/1AOxIrLzfrdu_CsPgrN7Nbdm9UjSxSR9_/edit?usp=sharing&ouid=110661251668988516606&rtpof=true&sd=true" target="_blank">Slides</a> - Video]</td>
+                      </tr>
+                      <tr>
+                          <th scope="row" class="time"><strong>17:10 17:15</strong></th>
+                          <td><strong>Closing Message</strong></td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+
+          -->
+          
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+    Committee Section
+    ============================-->
+    <section id="committee" class="wow fadeInUp">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Organization</h2>
+          <p><strong>Workshop Chairs</strong></p>
+          <ul>
+            <li><a href="https://portalcientifico.uam.es/es/ipublic/researcher/261320" target="_blank">Alejandro Bellogin </a>, Universidad Autonoma de Madrid (Spain)</li>
+            <li><a href="https://www.ludovicoboratto.com/" target="_blank">Ludovico Boratto</a>, University of Cagliari (Italy)</li>
+            <li><a href="http://www.cycat.io/team/styliani-kleanthous/" target="_blank">Styliani Kleanthous</a>, Open University of Cyprus (Cyprus)</li>
+            <li><a href="https://elisabethlex.info" target="_blank">Elisabeth Lex</a>, Graz University of Technology (Austria)</li>
+            <li><a href="https://web.unica.it/unica/page/it/francescam_malloci" target="_blank">Francesca Maridina Malloci</a>, University of Cagliari (Italy)</li>
+            <li><a href="https://www.mirkomarras.com/" target="_blank">Mirko Marras</a>, University of Cagliari (Italy)</li>
+ 
+          </ul>
+          <p><strong>Program Committee</strong></p>
+
+
+          <ul>
+            <li>Marcelo Gabriel Armentano,National Scientific and Technical Research Council (CONICET), Argentina</li>
+            <li>Ashwathy Ashokan, University of Nebraska Omaha, USA</li>
+            <li>Ebrahim Bagheri, Ryerson University, Canada</li>
+            <li>Christine Bauer, Utrecht University, The Netherlands</li>
+            <li>Jeffrey Chan, RMIT University, Australia</li>
+            <li>Evgenia Christoforou, CYENS Centre of Excellence, Cyprus</li>
+            <li>Giordano D'Aloisio, University of L'Aquila, Italy</li>
+            <li>Andrea D'Angelo, University of L'Aquila, Italy</li>
+            <li>Yashar Deldjoo, Polytechnic University of Bari, Italy</li>
+            <li>Danilo Dessì, GESIS, Germany</li>
+            <li>Francesco Fabbri, Spotify, Spain</li>
+            <li>Nina Grgic-Hlaca, MPI-SS, Germany</li>
+            <li>Danila Hettiachchi, RMIT University, Australia</li>
+            <li>Toshihiro Kamishima, NIAIST, Japan</li>
+            <li>Kunal Khadilkar, MIT College of Engineering, USA</li>
+            <li>Dominik Kowald, Know-Center, Austria</li>
+            <li>Emanuel Lacic, Infobip, Croatia</li>
+            <li>Dana Mckay, RMIT University, Australia</li>
+            <li>Giacomo Medda, Univrsity of Cagliari, Italy</li>
+            <li>Cataldo Musto, University of Bari, Italy</li>
+            <li>Julia Neidhardt, Technical University of Wien, Austria</li>
+            <li>Harrie Oosterhuis, Radboud University, The Netherlands</li>
+            <li>Panagiotis Papadakos, FORTH-ICS, Greece</li>
+            <li>Alessandro Sebastian Podda, University of Cagliari, Italy</li>
+            <li>Simone Paolo Ponzetto, University of Mannheim, Germany</li>
+            <li>Lorenzo Porcaro, Joint Research Centre EC, Italy</li>
+            <li>Erasmo Purificato, Otto-von-Guericke U. Mag., Germany</li>
+            <li>Alessandro Raganato, University of Helsinki, Finland</li>
+            <li>Amifa Raj, Boise State University, USA</li>
+            <li>Vaijanath Rao, Quicken Inc., USA</li>
+            <li>Yongli Ren, RMIT University, Australia</li>
+            <li>Mete Sertkan, Technical University of Wien, Austria</li>
+            <li>Manel Slokom, Delft Univ. of Technology, The Netherlands</li>
+            <li>Nasin Sonboli, Tufts University, USA</li>
+            <li>Tom Sühr, Technische Universität Berlin, Germany</li>
+            <li>Marko Tkalcic, University of Primorska, Slovenia</li>
+            <li>Antonela Tommasel, CONICET, Argentina</li>
+            <li>Christoph Trattner, University of Bergen, Norway</li>
+            <li>Rohini U, Glassdoor, USA</li>
+            <li>Eva Zangerle, University of Innsbruck, Austria</li>
+            <li>Arkaitz Zubiaga, Queen Mary University of London, UK</li>
+        </ul>
+        
+      
+        </div>
+      </div>
+
+    </section>
+
+      <!--==========================
+    Attending Section
+    ============================-->
+    <section id="attending" class="wow fadeInUp section-with-bg">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Register</h2>
+          <p>Please register from the  SIGIR 2024's main conference website following the instructions indicated at <a href="https://sigir-2024.github.io/attend_registration.html" target="_blank">https://sigir-2024.github.io/attend_registration.html</a>.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+    Past Editions Section
+    ============================-->
+    <section id="editions" class="wow fadeInUp">
+
+      <div class="container-fluid">
+        <div class="section-header">
+			<h2>Related Workshops</h2>
+			<p>We also invite you to check out the three related workshops:</p>
+			<ul>
+				<li><a href="http://biasinrecsys.github.io/ecir2022/" target="_blank">3rd International Workshop on Algorithmic Bias in Search and Recommendation (Bias@ECIR2022)</a></li>
+				<li><a href="http://biasinrecsys.github.io/ecir2021/" target="_blank">2nd International Workshop on Algorithmic Bias in Search and Recommendation (Bias@ECIR2021)</a></li>
+				<li><a href="http://bias.disim.univaq.it/" target="_blank">1st International Workshop on Algorithmic Bias in Search and Recommendation (Bias@ECIR2020)</a></li>
+			</ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!--==========================
+    Contacts Section
+    ============================-->
+    <section id="contacts" class="wow fadeInUp section-with-bg">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Contacts</h2>
+          <p>For general enquiries on the workshop, please send an email to <strong>alejandro.bellogin@uam.es</strong>, <strong>ludovico.boratto@acm.org</strong>, <strong>s.kleanthous@cyens.org.cy</strong>,
+            <strong>elisabeth.lex@tugraz.at</strong>, <strong>francescam.malloci@unica.it</strong>, <strong>mirko.marras@acm.org</strong>.</p>
+          </br>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+    Acks Section
+    ============================-->
+   <!--
+    <section id="acknowledgments" class="wow fadeInUp">
+
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Acknowledgements</h2>
+          <div class="row" style="margin: 10px auto 30px auto;width: 50%;">
+            <div class="col">
+              <img src="img/cagliari.png" alt="cagliari" style="width: 100%;">
+            </div>
+            <div class="col">
+              <img src="img/sapienza.png" alt="sapienza" style="width: 100%;">
+            </div>
+            <div class="col">
+              <img src="img/aquila.png" alt="aquila" style="width: 100%;">
+            </div>
+          </div>
+          <div class="row" style="margin: 10px auto 30px auto;width: 50%;">
+            <div class="col">
+              <img src="img/sobigdata.png" alt="sobigdata" style="width: 100%;">
+            </div>
+            <div class="col">
+              <img src="img/springer.png" alt="springer" style="width: 100%;">
+            </div>
+          </div>
+	  <p>The "Fourth International Workshop on Algorithmic Bias in Search and Recommendation (Bias 2023)" event was organised as part of the SoBigData.it project (Prot. IR0000013 - Call n. 3264 of 12/28/2021) initiatives aimed at training new users and communities in the usage of the research infrastructure (SoBigData.eu). 
+SoBigData.it receives funding from European Union – NextGenerationEU – National Recovery and Resilience Plan (Piano Nazionale di Ripresa e Resilienza, PNRR) – Project: “SoBigData.it – Strengthening the Italian RI for Social Mining and Big Data Analytics” – Prot. IR0000013 – Avviso n. 3264 del 28/12/2021.</p>	
+        </div>
+      </div>
+    </section>
+
+   --> 
+
+  </main>
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
